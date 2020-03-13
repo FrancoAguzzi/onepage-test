@@ -3,198 +3,291 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Franco Camelo Aguzzi" />
     <link rel="stylesheet" href="./style/style.css" />
-    <link rel="stylesheet" href="/Fonts/fontawesome-free-5.12.1-web/scss/fontawesome.scss">
     <title>One Page Test</title>
   </head>
   <body>
-    <div class="container">
-      <div class="content-wrapper">
-        <div class="content__azure-wrapper">
-          <img src="/assets/azure.png" alt="Azure Image" class="content__azure-img">
-          <nav class="content__navigation">
-            <a href="#" class="content__navigation-img">
-              <svg viewBox="0 0 21 21" class="burger-icon">
-                <line x1="0" y1="2" x2="21" y2="2"></line>
-                <line x1="0" y1="10.5" x2="21" y2="10.5"></line>
-                <line x1="0" y1="19" x2="21" y2="19"></line>
-              </svg>
-            </a>
-            <a href="#" class="content__navigation-img">
-              <svg viewBox="0 0 20 20" class="magnifying-glass-icon">
-                <circle r="7" cx="7.5" cy="7.5"></circle>
-                <line x1="12.5" y1="12.5" x2="21" y2="21"></line>
-              </svg>
-            </a>
-          </nav>
+    <div class="background"></div> <!-- Stars Background -->
+    <div class="content-wrapper">
+      <div class="content__azure-wrapper">
+        <img
+          src="/assets/azure.png"
+          alt="Azure Image"
+          class="content__azure-img"
+        />
+        <nav class="content__navigation"> <!-- Nav -->
+          <a href="#" class="content__navigation-img">
+            <svg viewBox="0 0 21 21" class="burger-icon">
+              <line x1="0" y1="2" x2="21" y2="2"></line>
+              <line x1="0" y1="10.5" x2="21" y2="10.5"></line>
+              <line x1="0" y1="19" x2="21" y2="19"></line>
+            </svg>
+          </a>
+          <a href="#" class="content__navigation-img">
+            <svg viewBox="0 0 20 20" class="magnifying-glass-icon">
+              <circle r="7" cx="7.5" cy="7.5"></circle>
+              <line x1="12.5" y1="12.5" x2="21" y2="21"></line>
+            </svg>
+          </a>
+        </nav>
+      </div>
+      <main class="content__blogpost blogpost">
+        <div class="blogpost__title"> <!-- Heading 1 -->
+          <section class="blogpost__title-wrapper">
+            <a href="#" class="blogpost__title-tag ">Politics</a>
+            <h1 class="blogpost__title-heading">
+              Cameron Set to Return With U.K. Majority as SNP Sweeps Scotland
+            </h1>
+          </section>
         </div>
-        <main class="content__blogpost blogpost">
-          <div class="blogpost__title">
-            <section class="blogpost__title-wrapper">
-              <a href="#" class="blogpost__title-tag ">Politics</a>
-              <h1 class="blogpost__title-heading">Cameron Set to Return With U.K. Majority as SNP Sweeps Scotland</h1>
-            </section>
+
+        <section class="blogpost__author"> <!-- Authors Left Section -->
+          <div class="blogpost__author-names">
+            <span class="blogpost__author-by">by</span>
+            <a href="#" class="blogpost__author-name">
+              <strong>Robert Hutton</strong>
+            </a>
+            <span class="blogpost__author-comma">,</span>
+            <a href="#" class="blogpost__author-name">
+              <strong>Svenja O'Donnell</strong>
+            </a>
+            <span class="blogpost__author-and">and</span>
+            <a href="#" class="blogpost__author-name">
+              <strong>Thomas Penny</strong>
+            </a>
           </div>
-          
-            <section class="blogpost__author">
-              <div class="blogpost__author-names">
-                <span class="blogpost__author-by">by</span>
-                <a href="#" class="blogpost__author-name">
-                  Robert Hutton
-                </a>
-                <span class="blogpost__author-comma">,</span>
-                <a href="#" class="blogpost__author-name">
-                  Svenja O'Donnell
-                </a>
-                <span class="blogpost__author-and">and</span>
-                <a href="#" class="blogpost__author-name">
-                  Thomas Penny
-                </a>
-              </div>
-              <span class="blogpost__author-bottomline"></span>
-              <div class="blogpost__author-medias"></div>
-              <a href="#" class="blogpost__author-media">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" class="blogpost__author-media">
-
-              </a>
-              <a href="#" class="blogpost__author-media">
-
-              </a>
-            </section>
-            <div class="blogpost__content-wrapper">
-            <div class="blogpost__text-wrapper">
-              <p class="blogpost__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ornare volutpat. Nulla enim neque, placerat ut
-                euismod at, pharetra nec tellus. Maecenas et nulla non mi volutpat eleifend at ut ex. In sed nibh vitae nisi posuere
-                vulputate.</p>
-              <p class="blogpost__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ornare volutpat. Nulla enim neque, placerat ut
-                euismod at, pharetra nec tellus. Maecenas et nulla non mi volutpat eleifend at ut ex. In sed nibh vitae nisi posuere
-                vulputate. Etiam lectus diam, pretium eu volutpat a, pulvinar auctor arcu. Pellentesque gravida consequat nisl at
-                scelerisque. In metus nunc, gravida sit amet ligula sit amet, tempor aliquam orci. Quisque ac accumsan nibh. Nam commodo
-                sollicitudin odio, eu aliquam nisi malesuada eget.
-              </p>
-              <div class="blogpost__text-blockquote-wrapper">
-                <img src="./assets/quotation-mark.png" alt="Quotation Mark" class="blockquote-quote1"/>
-                <blockquote class="blogpost__text-blockquote">
-                  The Sweetest <i class="blockquote-italic">Victory</i> of All
-                </blockquote>
-                <img src="./assets/quotation-mark.png" alt="Quotation Mark" class="blockquote-quote2"/>
+          <span class="blogpost__author-bottomline"></span>
+          <div class="blogpost__author-medias">
+            <a href="#" class="blogpost__author-media">
+              <img
+                src="/assets/icon/facebook-round.png"
+                alt="Facebook Icon"
+                class="blogpost__author-mediaicon"
+              />
+            </a>
+            <a href="#" class="blogpost__author-media">
+              <img
+                src="/assets/icon/twitter-round.png"
+                alt="Twitter Icon"
+                class="blogpost__author-mediaicon"
+              />
+            </a>
+            <a href="#" class="blogpost__author-media">
+              <img
+                src="/assets/icon/google-round.png"
+                alt="Google Plus Icon"
+                class="blogpost__author-mediaicon"
+              />
+            </a>
+          </div>
+        </section>
+        <div class="blogpost__content-wrapper">
+          <div class="blogpost__text-wrapper"> <!-- Blog Content (Text) -->
+            <p class="blogpost__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              tristique ornare volutpat. Nulla enim neque, placerat ut euismod
+              at, pharetra nec tellus. Maecenas et nulla non mi volutpat
+              eleifend at ut ex. In sed nibh vitae nisi posuere vulputate.
+            </p>
+            <p class="blogpost__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              tristique ornare volutpat. Nulla enim neque, placerat ut euismod
+              at, pharetra nec tellus. Maecenas et nulla non mi volutpat
+              eleifend at ut ex. In sed nibh vitae nisi posuere vulputate. Etiam
+              lectus diam, pretium eu volutpat a, pulvinar auctor arcu.
+              Pellentesque gravida consequat nisl at scelerisque. In metus nunc,
+              gravida sit amet ligula sit amet, tempor aliquam orci. Quisque ac
+              accumsan nibh. Nam commodo sollicitudin odio, eu aliquam nisi
+              malesuada eget.
+            </p>
+            <div class="blogpost__text-blockquote-wrapper">
+              <img
+                src="./assets/icon/quotation-mark.png"
+                alt="Quotation Mark"
+                class="blockquote-quote1"
+              />
+              <blockquote class="blogpost__text-blockquote">
+                The Sweetest <i class="blockquote-italic">Victory</i> of All
+              </blockquote>
+              <img
+                src="./assets/icon/quotation-mark.png"
+                alt="Quotation Mark"
+                class="blockquote-quote2"
+              />
             </div>
             <p class="blogpost__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ornare volutpat. Nulla enim neque, placerat
-              ut
-              euismod at, pharetra nec tellus. Maecenas et nulla non mi volutpat eleifend at ut ex. In sed nibh vitae nisi posuere
-              vulputate. Etiam lectus diam, pretium eu volutpat a, pulvinar auctor arcu. Pellentesque gravida consequat nisl at
-              scelerisque. In metus nunc, gravida sit amet ligula sit amet, tempor aliquam orci. Quisque ac accumsan nibh. Nam
-              commodo
-              sollicitudin odio, eu aliquam nisi malesuada eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ornare volutpat. Nulla enim neque, placerat
-              ut
-              euismod at, pharetra nec tellus.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              tristique ornare volutpat. Nulla enim neque, placerat ut euismod
+              at, pharetra nec tellus. Maecenas et nulla non mi volutpat
+              eleifend at ut ex. In sed nibh vitae nisi posuere vulputate. Etiam
+              lectus diam, pretium eu volutpat a, pulvinar auctor arcu.
+              Pellentesque gravida consequat nisl at scelerisque. In metus nunc,
+              gravida sit amet ligula sit amet, tempor aliquam orci. Quisque ac
+              accumsan nibh. Nam commodo sollicitudin odio, eu aliquam nisi
+              malesuada eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Morbi tristique ornare volutpat. Nulla enim neque, placerat
+              ut euismod at, pharetra nec tellus.
             </p>
           </div>
-            <div class="blogpost__text-img-wrapper">
-              <img src="/assets/tree.png" alt="Tree Image" class="blogpost__text-img">
-            </div>
+          <div class="blogpost__text-img-wrapper">
+            <img
+              src="/assets/tree.png"
+              alt="Tree Image"
+              class="blogpost__text-img"
+            />
+          </div>
           <div class="blogpost__text-wrapper">
             <p class="blogpost__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ornare volutpat. Nulla enim neque, placerat
-              ut
-              euismod at, pharetra nec tellus. Maecenas et nulla non mi volutpat eleifend at ut ex. In sed nibh vitae nisi posuere
-              vulputate. Etiam lectus diam, pretium eu volutpat a, pulvinar auctor arcu. Pellentesque gravida consequat nisl at
-              scelerisque. In metus nunc, gravida sit amet ligula sit amet, tempor aliquam orci. Quisque ac accumsan nibh. Nam
-              commodo
-              sollicitudin odio, eu aliquam nisi malesuada eget.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              tristique ornare volutpat. Nulla enim neque, placerat ut euismod
+              at, pharetra nec tellus. Maecenas et nulla non mi volutpat
+              eleifend at ut ex. In sed nibh vitae nisi posuere vulputate. Etiam
+              lectus diam, pretium eu volutpat a, pulvinar auctor arcu.
+              Pellentesque gravida consequat nisl at scelerisque. In metus nunc,
+              gravida sit amet ligula sit amet, tempor aliquam orci. Quisque ac
+              accumsan nibh. Nam commodo sollicitudin odio, eu aliquam nisi
+              malesuada eget.
             </p>
             <h2 class="blogpost__text-secondtitle">Buckingham Palace</h2>
-            <p class="blogpost__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ornare volutpat. Nulla enim neque, placerat
-              ut
-              euismod at, pharetra nec tellus. Maecenas et nulla non mi volutpat eleifend at ut ex. In sed nibh vitae nisi posuere
-              vulputate. Maecenas et nulla non mi volutpat eleifend at ut ex. In sed nibh vitae nisi posuere
-              vulputate.</p>
-            <div class="blogpost__tags-wrapper">
+            <p class="blogpost__text-last">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              tristique ornare volutpat. Nulla enim neque, placerat ut euismod
+              at, pharetra nec tellus. Maecenas et nulla non mi volutpat
+              eleifend at ut ex. In sed nibh vitae nisi posuere vulputate.
+              Maecenas et nulla non mi volutpat eleifend at ut ex. In sed nibh
+              vitae nisi posuere vulputate.
+            </p>
+            <div class="blogpost__tags-wrapper"> <!-- Blog Relationated Tags -->
               <ul class="blogpost__tags">
-                  <li class="blogpost__tags-tag"><a href="#" class="blogpost__tags-link">Markets</a></li>
-                  <li class="blogpost__tags-tag"><a href="#" class="blogpost__tags-link">Business</a></li>
-                  <li class="blogpost__tags-tag"><a href="#" class="blogpost__tags-link">Sport</a></li>
-                  <li class="blogpost__tags-tag"><a href="#" class="blogpost__tags-link">Special Reports</a></li>
-                  <li class="blogpost__tags-tag"><a href="#" class="blogpost__tags-link">Culture</a></li>
+                <li class="blogpost__tags-tag">
+                  <a href="#" class="blogpost__tags-link">Markets</a>
+                </li>
+                <li class="blogpost__tags-tag">
+                  <a href="#" class="blogpost__tags-link">Business</a>
+                </li>
+                <li class="blogpost__tags-tag">
+                  <a href="#" class="blogpost__tags-link">Sport</a>
+                </li>
+                <li class="blogpost__tags-tag">
+                  <a href="#" class="blogpost__tags-link">Special Reports</a>
+                </li>
+                <li class="blogpost__tags-tag">
+                  <a href="#" class="blogpost__tags-link">Culture</a>
+                </li>
               </ul>
             </div>
-          <div class="blogpost__share-wrapper">
+            <div class="blogpost__share-wrapper"> <!-- Blog Sharing on Social Medias -->
               <p class="blogpost__share-text">Share:</p>
               <a href="#" class="blogpost__share-media facebook">
-                <i class="fab fa-facebook-f"></i>
+                <img
+                  src="/assets/icon/facebook-icon.png"
+                  alt="Facebook Icon"
+                  class="blogpost__share-media facebook-icon"
+                />
                 <span class="blogpost__share-media facebook-num">125</span>
               </a>
               <a href="#" class="blogpost__share-media twitter">
+                <img
+                  src="/assets/icon/twitter-icon.png"
+                  alt="Twitter Icon"
+                  class="blogpost__share-media twitter-icon"
+                />
                 <span class="blogpost__share-media twitter-num">502</span>
               </a>
-              <a href="#" class="blogpost__share-media gmail">
-                <span class="blogpost__share-media gmail-num">25</span>
+              <a href="#" class="blogpost__share-media google">
+                <img
+                  src="/assets/icon/google-icon.png"
+                  alt="Google Plus Icon"
+                  class="blogpost__share-media google-icon"
+                />
+                <span class="blogpost__share-media google-num">25</span>
               </a>
-          </div>
-          <section class="blogpost__comment">
-            <h3 class="blogpost__comment-title">Comments</h3>
-            <article class="blogpost__comment-wrapper">
+            </div>
+            <section class="blogpost__comment"> <!-- Blog Comments -->
+              <h3 class="blogpost__comment-title">Comments</h3>
+              <article class="blogpost__comment-wrapper">
                 <a href="#" class="blogpost__comment-img">
-                  <img src="/assets/comment-img1.png" alt="Author Icon" class="blogpost__comment-img">
+                  <img
+                    src="/assets/icon/comment-img1.png"
+                    alt="Author Icon"
+                    class="blogpost__comment-img"
+                  />
                 </a>
                 <div class="blogpost__comment-content">
-                  <div class="blogpost__comment-content-up"> 
+                  <div class="blogpost__comment-content-up">
                     <a href="#" class="blogpost__comment-author">
-                        John Doe
-                      </a>
-                      <div class="blogpost__comment-date">
-                          <img src="" alt="">
-                          <p class="blogpost__comment-date-time">
-                            2 hours ago
-                          </p>
-                      </div>
+                      John Doe
+                    </a>
+                    <div class="blogpost__comment-date">
+                      <img
+                        src="/assets/icon/calendar-icon.png"
+                        alt="Calendar Icon"
+                        class="blogpost__comment-dateicon"
+                      />
+                      <p class="blogpost__comment-date-time">
+                        2 hours ago
+                      </p>
                     </div>
-                    <p class="blogpost__comment-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, assumenda? Possimus ad quos esse fuga sint, modi iure fugiat maiores.
-                    </p>
-                </div>
-            </article>
-            <article class="blogpost__comment-wrapper">
-              <a href="#" class="blogpost__comment-img">
-                <img src="/assets/comment-img2.png" alt="Author Icon" class="blogpost__comment-img">
-              </a>
-              <div class="blogpost__comment-content">
-                <div class="blogpost__comment-content-up">
-                  <a href="#" class="blogpost__comment-author">
-                    Allon Poe
-                  </a>
-                  <div class="blogpost__comment-date">
-                    <img src="" alt="">
-                    <p class="blogpost__comment-date-time">
-                      6 days ago
-                    </p>
                   </div>
+                  <p class="blogpost__comment-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Laborum, assumenda? Possimus ad quos esse fuga sint, modi
+                    iure fugiat maiores.
+                  </p>
                 </div>
-                <p class="blogpost__comment-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, assumenda? Possimus ad quos esse fuga sint,
-                  modi iure fugiat maiores.
-                </p>
-              </div>
-            </article>
-            <article class="blogpost__todocomment-wrapper">
-              <a href="#" class="blogpost__todocomment-img">
-                <img src="/assets/comment-selfimg.png" alt="Account Icon" class="blogpost__todocomment-img">
-              </a>
-              <div class="blogpost__todocomment-content">
-                <input type="text" class="blogpost__todocomment-input" placeholder="Your comment...">
-              </div>
-            </article>
-          </section>
+              </article>
+              <article class="blogpost__comment-wrapper">
+                <a href="#" class="blogpost__comment-img">
+                  <img
+                    src="/assets/icon/comment-img2.png"
+                    alt="Author Icon"
+                    class="blogpost__comment-img"
+                  />
+                </a>
+                <div class="blogpost__comment-content">
+                  <div class="blogpost__comment-content-up">
+                    <a href="#" class="blogpost__comment-author">
+                      Allon Poe
+                    </a>
+                    <div class="blogpost__comment-date">
+                      <img
+                        src="/assets/icon/calendar-icon.png"
+                        alt="Calendar Icon"
+                        class="blogpost__comment-dateicon"
+                      />
+                      <p class="blogpost__comment-date-time">
+                        6 days ago
+                      </p>
+                    </div>
+                  </div>
+                  <p class="blogpost__comment-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Laborum, assumenda? Possimus ad quos esse fuga sint, modi
+                    iure fugiat maiores.
+                  </p>
+                </div>
+              </article>
+              <article class="blogpost__todocomment-wrapper">
+                <a href="#" class="blogpost__todocomment-img">
+                  <img
+                    src="/assets/icon/comment-selfimg.png"
+                    alt="Account Icon"
+                    class="blogpost__todocomment-img"
+                  />
+                </a>
+                <div class="blogpost__todocomment-content">
+                  <input
+                    type="text"
+                    class="blogpost__todocomment-input"
+                    placeholder="Your comment..."
+                  />
+                </div>
+              </article>
+            </section>
           </div>
-          </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>
