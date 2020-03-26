@@ -1,0 +1,25 @@
+
+// Tablet Media Query
+@media (max-width: 769px) and (min-width: 600px) {
+    .blogpost {
+      &__title-heading {
+      font-size: 48px;
+      }
+      &__author {
+        font-size: 10px;
+
+        &-names {
+        width: 100%;
+        }
+      }
+      &__text-wrapper {
+          width: 60%;
+      }
+    }
+    .fa-facebook.media,
+    .fa-twitter.media,
+    .fa-google-plus.media {
+      width: 20px;
+      height: 20px;
+    }
+  }

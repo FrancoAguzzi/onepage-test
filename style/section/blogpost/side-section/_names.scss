@@ -1,0 +1,18 @@
+
+// Authors Left Section Names
+
+&-names {
+    width: 74%;
+  }
+
+  &-name {
+    text-decoration: none;
+    font-family: "PlayfairDisplay", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: $blacksecondary-color;
+
+    &:hover {
+      border-bottom: 1px solid $blacksecondary-color;
+    }
+  }

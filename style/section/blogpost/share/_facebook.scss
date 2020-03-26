@@ -1,0 +1,16 @@
+
+// Blogpost Facebook Sharing Button
+
+&.facebook {
+    background-color: $facebook-bgcolor;
+    border-radius: 4px;
+    margin-left: 55px;
+    text-decoration: none;
+
+    &-num {
+      margin: 2px 0 0 0;
+      font-family: "Lato", sans-serif;
+      color: $white-color;
+      font-size: 12px;
+    }
+  }

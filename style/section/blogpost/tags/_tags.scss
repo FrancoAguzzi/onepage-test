@@ -1,0 +1,21 @@
+
+// Blogpost Relationated Tags
+
+&__tags {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 13.25%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+
+    &-wrapper {
+      width: 100%;
+    }
+
+    @import './link';
+    @import './tag';
+    
+  }

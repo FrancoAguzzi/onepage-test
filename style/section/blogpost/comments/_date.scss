@@ -1,0 +1,19 @@
+
+// Blogpost Comment Date
+
+&-date {
+    display: flex;
+
+    &-time {
+      margin: 0;
+      font-family: "Lato", sans-serif;
+      font-size: 10px;
+      color: $date-color;
+    }
+
+    &icon {
+      width: 13px;
+      height: 10px;
+      margin-right: 5px;
+    }
+  }

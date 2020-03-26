@@ -1,0 +1,17 @@
+
+// Blogpost Title Tag
+
+&-tag {
+    color: $gold-color;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }

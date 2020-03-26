@@ -1,0 +1,26 @@
+
+ // Blog Share Buttons
+
+ &__share {
+    @import './wrapper';
+    @import './text';
+
+    &-media {
+      width: 71px;
+      height: 31px;
+      margin-left: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      transition: opacity 0.4s;
+
+      @import './facebook';
+      @import './twitter';
+      @import './google';
+      
+      &:hover {
+        opacity: 0.7;
+        transition: opacity 0.4s;
+      }
+    }
+  }

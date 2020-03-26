@@ -1,0 +1,14 @@
+&-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8.66%;
+    width: 90.46%;
+
+    &-up {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 15px;
+      margin-bottom: 24px;
+    }
+  }

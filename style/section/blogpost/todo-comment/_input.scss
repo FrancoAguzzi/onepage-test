@@ -1,0 +1,15 @@
+
+// Blogpost To Do Comment Input
+
+&-input {
+    border: none;
+    outline: none;
+    color: $lightgray-color;
+
+    &::placeholder {
+    font-family: "PlayfairDisplay";
+    font-style: italic;
+    font-size: 13px;
+    color: $input-color;
+    }
+}

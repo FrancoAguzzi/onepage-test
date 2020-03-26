@@ -1,0 +1,15 @@
+
+// Blockquote Quotes
+
+.blockquote {
+    &-quote1 {
+      transform: rotateZ(180deg);
+      width: 40px;
+      height: 29px;
+    }
+  
+    &-italic {
+      font-family: "PlayfairDisplay Italic";
+      font-weight: 400;
+    }
+  }

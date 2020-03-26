@@ -1,0 +1,85 @@
+
+// Mobile Media Query
+@media (max-width: 600px) {
+    .blogpost {
+      &__title-heading {
+        font-size: 24px;
+      }
+      &__content-up {
+        flex-direction: column;
+      }
+      &__author {
+        margin: 40px auto 0 auto;
+        width: 40%;
+        font-size: 10px;
+
+        &-text,
+        &-name {
+          font-size: 10px;
+        }
+        &-bottomline {
+          margin-top: 15px;
+        }
+        &-medias {
+          width: 100%;
+          margin-top: 15px;
+          justify-content: flex-start;
+        }
+      }
+      &__text {
+        &-wrapper {
+        margin: 40px auto 0 auto;
+        width: 70%;
+        }
+        &-blockquote {
+          font-size: 24px;
+        }
+      }
+      &__tags {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        &-tag {
+          margin-bottom: 10px;
+        }
+      }
+      &__share {
+        &-wrapper {
+          width: 100%;
+          height: auto;
+          margin-right: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        &-media {
+          &.facebook,
+          &.twitter,
+          &.google {
+            margin-left: 0;
+            margin-bottom: 10px;
+          }
+        }
+      }
+      &__comment-text {
+        font-size: 10px;
+      }
+    }
+    .content {
+      &__navigation {
+        padding-top: 15px;
+      }
+    }
+    .burger-icon,
+    .magnifying-glass-icon {
+      width: 15px;
+    }
+    .fa-facebook.media,
+    .fa-twitter.media,
+    .fa-google-plus.media {
+        width: 20px;
+        height: 20px;
+    }
+  }
+  

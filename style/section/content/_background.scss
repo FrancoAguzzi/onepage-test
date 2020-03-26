@@ -1,0 +1,12 @@
+
+// Stars Page Background
+
+.background {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../assets/background/background.png');
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }

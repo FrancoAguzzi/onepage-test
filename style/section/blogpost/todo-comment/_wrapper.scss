@@ -1,0 +1,12 @@
+
+// Blogpost To Do Comment Wrapper
+
+&-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    margin-bottom: 80px;
+    border-bottom: 1px solid $lightergray-color;
+    border-top: 1px solid $lightergray-color;
+}

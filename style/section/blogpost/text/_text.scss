@@ -1,0 +1,21 @@
+
+// Blogpost Text
+
+&__text {
+    font-family: "PlayfairDisplay", sans-serif;
+    font-size: 16px;
+    color: $blacksecondary-color;
+    line-height: 34px;
+    margin: 0 0 58px 0;
+
+    &-wrapper {
+        width: 46.16%;
+        margin: 50px 0 0 35px;
+      }
+
+    @import './blockquote';
+    @import './secondtitle';
+    @import './image';
+    @import './last-text';
+
+}

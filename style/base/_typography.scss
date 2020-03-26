@@ -1,0 +1,42 @@
+
+// TYPOGRAPHY
+
+// Lato Font
+@font-face {
+  font-family: "Lato";
+  src: url('../../assets/Fonts/Lato/Lato-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url('../../assets/Fonts/Lato/Lato-Bold.ttf') format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url('../../assets/Fonts/Lato/Lato-Italic.ttf') format("truetype");
+  font-style: italic;
+}
+
+
+// Playfair Display Font
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url('../../assets/Fonts/Playfair_Display/PlayfairDisplay-Regular.ttf')
+    format("truetype");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url('../../assets/Fonts/Playfair_Display/PlayfairDisplay-Bold.ttf')
+    format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url('../../assets/Fonts/Playfair_Display/PlayfairDisplay-Italic.ttf')
+    format("truetype");
+  font-style: italic;
+}

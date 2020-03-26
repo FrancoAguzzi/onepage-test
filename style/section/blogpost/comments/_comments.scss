@@ -1,0 +1,15 @@
+
+// Blog Comments Section
+
+&__comment {
+    @import './title';
+    @import './wrapper';
+
+    @import './image';
+    @import './content';
+
+    @import './author';
+    @import './date';
+
+    @import './text';
+}

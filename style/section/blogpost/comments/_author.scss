@@ -1,0 +1,19 @@
+
+// Blogpost Comment Author
+
+&-author {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Lato Bold", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 10px;
+    color: $blacksecondary-color;
+    margin-right: 20px;
+
+    &:hover {
+      text-decoration: underline;
+      transition: all 0.4s;
+    }
+  }

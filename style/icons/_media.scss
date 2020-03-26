@@ -1,0 +1,17 @@
+
+// Authors Left Section Social Media Icons 
+
+.fa-facebook.media,
+.fa-twitter.media,
+.fa-google-plus.media {
+    width: 30px;
+    height: 30px;
+    color: $lightgray-color;
+    border: 1px solid $lightgray-color;
+    border-radius: 50%;
+  }
+
+  .media {
+    justify-content: center;
+    align-items: center;
+  }

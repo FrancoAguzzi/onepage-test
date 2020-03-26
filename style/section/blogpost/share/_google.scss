@@ -1,0 +1,16 @@
+
+// Blogpost Google Sharing Button
+
+&.google {
+    background-color: $google-bgcolor;
+    border-radius: 4px;
+    margin-left: 30px;
+    text-decoration: none;
+
+    &-num {
+      margin: 2px 0 0 0;
+      font-family: "Lato", sans-serif;
+      color: $white-color;
+      font-size: 12px;
+    }
+  }

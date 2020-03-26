@@ -1,0 +1,13 @@
+
+// Blogpost To Do Comment Author Image
+
+&-img {
+    border-radius: 50%;
+    width: 55px;
+    transition: opacity 0.4s;
+
+    &:hover {
+    opacity: 0.7;
+    transition: opacity 0.4s;
+    }
+}

@@ -1,0 +1,23 @@
+
+// Authors Left Section
+
+&__author {
+    width: 14.67%;
+    margin-left: 8.61%;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "PlayfairDisplay", sans-serif;
+    font-size: 13px;
+
+    &-text {
+        font-family: "PlayfairDisplay", sans-serif;
+        font-size: 13px;
+    }
+
+    @import './names';
+    @import './bottomline';
+    @import './medias';
+
+}
