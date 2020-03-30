@@ -6,5 +6,6 @@ To run this project, use any Live Server Extension or open the "index.html" file
 
 Example: C:\Users\franco.aguzzi\onepage-test\index.html
 
-
+<br>
+<br>
 Developed by: Franco Camelo Aguzzi (09/03/2020 - 13/03/2020)
