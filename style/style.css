@@ -392,7 +392,7 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-jusitfy-content: space-between;
+  -webkit-justify-content: space-between;
   position: absolute;
   top: 0;
   left: 0;
