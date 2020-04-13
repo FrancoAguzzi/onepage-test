@@ -2,8 +2,14 @@
 // Tablet Media Query
 @media (max-width: 769px) and (min-width: 600px) {
     .blogpost {
-      &__title-heading {
-      font-size: 48px;
+      &__title {
+        &-heading {
+          font-size: 36px;
+          margin-top: 10px;
+        }
+        &-tag {
+          font-size: 8px;
+        }
       }
       &__author {
         font-size: 10px;
