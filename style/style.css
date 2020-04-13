@@ -1030,7 +1030,7 @@ template {
 .fa-facebook.media,
 .fa-twitter.media,
 .fa-google-plus.media {
-  display: -webkit-box;
+  display: -webkit-flexs;
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: center;
