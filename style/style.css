@@ -1030,9 +1030,15 @@ template {
 .fa-facebook.media,
 .fa-twitter.media,
 .fa-google-plus.media {
-  display: -webkit-flex;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 30px;
   height: 30px;
   color: #999999;

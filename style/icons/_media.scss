@@ -5,6 +5,8 @@
 .fa-twitter.media,
 .fa-google-plus.media {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
   color: $lightgray-color;
