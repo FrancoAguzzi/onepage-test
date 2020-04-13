@@ -400,10 +400,6 @@ template {
   position: absolute;
 }
 
-.content__navigation-img {
-  max-height: 21px;
-}
-
 .content-wrapper {
   width: 91.5625%;
   margin: 4.21875%;
@@ -978,6 +974,7 @@ template {
 
 .burger-icon {
   width: 21px;
+  height: 21px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -1000,6 +997,7 @@ template {
 
 .magnifying-glass-icon {
   width: 20px;
+  height: 20px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
