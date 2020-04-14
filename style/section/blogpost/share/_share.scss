@@ -8,7 +8,7 @@
     &-media {
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: space-between;
       transition: opacity 0.4s;
 
       @import './facebook';

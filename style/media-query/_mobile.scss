@@ -49,6 +49,10 @@
         align-items: flex-start;
         &-tag {
           margin-bottom: 10px;
+
+          &:not(:first-child) {
+            margin-left: 0;
+          }
         }
       }
       &__share {

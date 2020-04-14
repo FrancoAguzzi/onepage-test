@@ -1,6 +1,8 @@
 @font-face {
   font-family: "Lato";
   src: url("../../assets/Fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -18,6 +20,8 @@
 @font-face {
   font-family: "PlayfairDisplay";
   src: url("../../assets/Fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -409,19 +413,16 @@ template {
 
 .content__azure-wrapper {
   width: 100%;
+  height: 0;
+  padding-top: 55%;
+  background: url(/assets/background/azure.png) no-repeat;
+  background-size: 100%;
   position: relative;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .content__azure-img {
-  width: 100%;
-  height: auto;
+  display: hidden;
 }
 
 .blogpost {
@@ -726,8 +727,9 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-transition: opacity 0.4s;
   transition: opacity 0.4s;
 }
@@ -1030,13 +1032,13 @@ template {
 .fa-facebook.media,
 .fa-twitter.media,
 .fa-google-plus.media {
-  display: -webkit-flexs;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: center;
+  -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-align-items: center;
+  -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   width: 30px;
@@ -1112,6 +1114,9 @@ template {
   }
   .blogpost__tags-tag {
     margin-bottom: 10px;
+  }
+  .blogpost__tags-tag:not(:first-child) {
+    margin-left: 0;
   }
   .blogpost__share-wrapper {
     width: 100%;
