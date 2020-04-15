@@ -381,7 +381,7 @@ template {
 
 .background {
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   background: url("../assets/background/background.png");
   position: fixed;
   top: 0;
@@ -402,6 +402,10 @@ template {
   width: 91%;
   margin: 0 4.5%;
   padding: 30px 0;
+}
+
+.content__navigation-img {
+  text-decoration: none;
 }
 
 .content-wrapper {
@@ -698,7 +702,7 @@ template {
 }
 
 .blogpost__share-wrapper {
-  width: 68.76%;
+  width: 100%;
   height: 31px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -707,7 +711,6 @@ template {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 50px;
-  margin-right: 0;
 }
 
 .blogpost__share-text {
@@ -730,6 +733,7 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 62px;
   -webkit-transition: opacity 0.4s;
   transition: opacity 0.4s;
 }
@@ -742,7 +746,7 @@ template {
 }
 
 .blogpost__share-media.facebook-num {
-  padding: 6px 6px 6px 20px;
+  padding: 6px 6px 6px 24px;
   font-family: "Lato", sans-serif;
   color: #fff;
   font-size: 12px;
@@ -1057,7 +1061,7 @@ template {
           align-items: center;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .blogpost__title-heading {
     font-size: 24px;
     margin-top: 5px;
@@ -1155,7 +1159,7 @@ template {
   }
 }
 
-@media (max-width: 769px) and (min-width: 600px) {
+@media only screen and (max-width: 769px) and (min-width: 600px) {
   .blogpost__title-heading {
     font-size: 36px;
     margin-top: 10px;
